@@ -99,7 +99,7 @@ $(document).ready(function() {
                     }
                     if (lost === 1) {
                         $('span').remove();
-                        $('#terminal').append('<div>You\'ve been traced down!<br>Formatting HDD...<br>Goodbye...<span id="blinking">_</span></div><br>');
+                        $('#terminal').append('<div>You\'ve been traced down!<br> Stealing Passwords ...<br>Formatting HDD...<br>Posting your Porn online...<br>Goodbye...<span id="blinking">_</span></div><br>');
                         $('#objectives li').animate({ 'opacity': '0' }, 3000);
                         $('#objectives #lost').show(3000).animate({ 'opacity': '1' }, 3000);
                         divx.scrollTop = divx.scrollHeight;
@@ -135,7 +135,7 @@ $(document).ready(function() {
 
             setTimeout(function() {
                 $('span').remove();
-                $('#terminal').append('<br><div>Welcome to HACKSYS [version 1.0.0].<br>(c) Copyright 2020 HaCorp Corporation. All rights reserved.<br><br>' + player_name + ' authenticated.<br>HACKSYS ready for use.<br>Use the help command for a list of commands.<br><br><span id="initial-root">$</span>&nbsp;&nbsp;&nbsp;<span id="blinking">_</span></div>');
+                $('#terminal').append('<br><div>Welcome to HACKSYS [version 1.0.0].<br>(c) Copyright 2020 Zoowie Corporation. All rights reserved.<br><br>' + player_name + ' authenticated.<br>HACKSYS ready for use.<br>Use the help command for a list of commands.<br><br><span id="initial-root">$</span>&nbsp;&nbsp;&nbsp;<span id="blinking">_</span></div>');
             }, 6500);
 
             setTimeout(function() {
@@ -168,7 +168,7 @@ $(document).ready(function() {
 
                     switch ($(this).val()) {
                         case 'help':
-                            $('#terminal').append('<div>$&nbsp;&nbsp;&nbsp;' + $(this).val() + '<br>List of commands:<br>help - Show this message (command list)<br>connect [DNS name] - Connects host computer with the targeted DNS name<br>disconnect - Disconnects host computer from the connected DNS name<br>exit - Shuts down host computer<br>list - Shows the list of the currently available applications<br>send [application type] - Sends given application name to the connected DNS name<span id="blinking">_</span></div>');
+                            $('#terminal').append('<div>$&nbsp;&nbsp;&nbsp;' + $(this).val() + '<br>List of commands:<br>help - Show this message (command list)<br>connect [DNS name] - Connects host computer with the targeted DNS name<br>disconnect - Disconnects host computer from the connected DNS name<br>exit - Shuts down host computer<br>list - Shows the list of the currently available applications<br>send [application type] - Sends given application name to the connected DNS name<br>import Keyreg - places keylog in target phone <br><span id="blinking">_</span></div>');
                             help = 1;
                             break;
                         case 'connect nearest.phone.relay':
