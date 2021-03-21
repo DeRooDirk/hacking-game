@@ -135,7 +135,7 @@ $(document).ready(function() {
 
             setTimeout(function() {
                 $('span').remove();
-                $('#terminal').append('<br><div>Welcome to HACKSYS [version 1.0.0].<br>(c) Copyright 2020 Zoowie Corporation. All rights reserved.<br><br>' + player_name + ' authenticated.<br>HACKSYS ready for use.<br>Use the help command for a list of commands.<br><br><span id="initial-root">$</span>&nbsp;&nbsp;&nbsp;<span id="blinking">_</span></div>');
+                $('#terminal').append('<br><div>Welcome to HACKSYS [version 1.0.0].<br>(c) Copyright 2020 Some Crazy Corporation. All rights reserved.<br><br>' + player_name + ' authenticated.<br>HACKSYS ready for use.<br>Use the help command for a list of commands.<br><br><span id="initial-root">$</span>&nbsp;&nbsp;&nbsp;<span id="blinking">_</span></div>');
             }, 6500);
 
             setTimeout(function() {
